@@ -1,0 +1,94 @@
+body
+{
+  background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+}
+.add-box
+{
+  background-color: #ffff;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;	width: 400px;
+  height: 300px;
+  width: 300px !important;
+  text-align: center;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  height: 138px;
+  width: 138px;
+  color: #ff0f7b;
+
+  border-radius: 50%;
+  border: 2px dashed #ff0f7b;
+  transform: translate(-50%,-50%);
+}
+.icon svg
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+  color: #ff0f7b;
+
+}
+li
+{
+	display: inline-block;
+}
+input, textarea
+{
+ height: 100%;
+ width: 100%;
+ border: 1px solid lightgrey;
+ border-radius: 6px;
+ outline: none;
+ padding: 10px 15px;
+ font-size: 17px;
+ font-family: 'Poppins', sans-serif;
+ transition: all 0.3s ease;     
+}
+.note-box
+{
+  margin: auto;
+  height: 178px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #ffff;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 10px;
+  width: 300px !important;
+  height: 300px;
+  box-shadow: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+}
+.note-box-inner {
+  position: absolute;
+  padding: 10px 10px;
+  margin: auto;
+  height: 278px;
+  width: 278px;
+  font-size: 20px;
+  overflow: scroll;
+}
+h1
+{
+ color: #ff0f7b;
+}
+button
+{	
+  color: #fff;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #ff0f7b;
+  color:  #ff0f7b;
+}
